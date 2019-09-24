@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/nokia/DRG_sprout/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/nokia/DRG_sprout/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/nokia/DRG_sprout/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/nokia/DRG_sprout/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/nokia/DRG_sprout/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/nokia/DRG_sprout/proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
@@ -62,8 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/libicuuc-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicuuc-v27.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/lib/libminikin-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminikin-v27.so \
     vendor/nokia/DRG_sprout/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/nokia/DRG_sprout/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
-    vendor/nokia/DRG_sprout/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/nokia/DRG_sprout/proprietary/lib/vendor.qti.esepowermanager@1.0.so:system/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:system/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/nokia/DRG_sprout/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
@@ -84,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG_sprout/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/nokia/DRG_sprout/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/nokia/DRG_sprout/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/nokia/DRG_sprout/proprietary/vendor/lib64/libsoftkeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymaster.so \
     vendor/nokia/DRG_sprout/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/nokia/DRG_sprout/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/nokia/DRG_sprout/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
@@ -1174,13 +1170,10 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     datastatusnotification \
     embms \
-    imssettings \
     CNEService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    ConnectionSecurityService \
     PowerOffAlarm \
-    SSGTelemetryService \
     TimeService \
     TrustZoneAccessService
