@@ -1,11 +1,11 @@
 {
 "version":"android-10.0",
-"filename":"lineage-17.1-20200224-UNOFFICIAL-Dragon.zip",
-"datetime":1582557377,
-"size":664421642,
+"filename":"lineage-17.1-20200227-UNOFFICIAL-Dragon.zip",
+"datetime":1582774534,
+"size":663527199,
 "url":"https://sourceforge.net/projects/drg-sprout/files/LineageOS/lineage-17.1-20200224-UNOFFICIAL-Dragon.zip/download",
-"filehash":"38226f294f4f55c8153def119cbffccb",
-"id":"cfef780aa6a749317eb80fd36ccdc75201caf24b1c41491c8a6763a5c35ea464",
+"filehash":"b74e524d289f746d030e9bae9b873976",
+"id":"c5042c4ab12a31784f94cfb95e6502453d984145e4471f69157775c0ca4b40d1",
 "whatsNew": "- Fixed Crack sounds during playing Games\n- Fixed Crack sounds in Whatsapp calls",
 "notification": "Sofware update - New LineageOs build"
 }
